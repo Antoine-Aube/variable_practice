@@ -21,3 +21,30 @@ cold_outside = false
 hungry = false
 happy = true
 
+
+#reassigned string variables
+first_name = "Jeff"
+last_name = "Bridges"
+favorite_food = "Hot Dogs"
+favorite_activity = "Ballet"
+
+puts first_name + " " + last_name
+puts favorite_food
+puts favorite_activity
+puts sunny_outside
+puts hungry
+puts percent_battery
+puts number_of_siblings
+
+def comfort_level(temperature)
+    if temperature < 70
+        puts "I'm cold!"
+    else
+        puts "I'm very comfy"
+    end 
+end 
+
+puts comfort_level(75)
+
+
+
