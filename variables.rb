@@ -15,3 +15,9 @@ body_temperature = 98.1
 favorite_local_radio_station = 99.3
 percent_battery = 100.0
 
+#boolean variables
+sunny_outside = true 
+cold_outside = false
+hungry = false
+happy = true
+
